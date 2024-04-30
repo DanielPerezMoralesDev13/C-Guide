@@ -59,6 +59,8 @@
   "files.associations": {
     "functional": "c",
     "modulo.h": "c",
-    "math.h": "c"
+    "math.h": "c",
+    "stdio.h": "c",
+    "string.h": "c"
   }
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+
 int main() {
     // Operaciones con enteros
     // Suma
@@ -29,11 +30,11 @@ int main() {
 
     // Operaciones mixtas
     // Multiplicación de cadenas de texto por un número entero
-    char holaRepetido[] = "Hola Hola Hola Hola Hola ";
-    printf("%s\n", holaRepetido);
+    char hola_repetido[] = "Hola Hola Hola Hola Hola ";
+    printf("%s\n", hola_repetido);
     // Multiplicación de cadenas de texto por un número entero
-    char holaPotencia[] = "Hola Hola Hola Hola Hola Hola Hola Hola ";
-    printf("%s\n", holaPotencia);
+    char hola_muchas_veces[] = "Hola Hola Hola Hola Hola Hola Hola Hola ";
+    printf("%s\n", hola_muchas_veces);
 
     // Operadores Comparativos
     // > significa mayor que
