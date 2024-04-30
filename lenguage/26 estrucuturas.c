@@ -11,7 +11,7 @@ struct Persona {
 int main() {
     // Declaración e inicialización de una estructura
     struct Persona persona1;
-    strcpy(persona1.nombre, "Juan");
+    strcpy(persona1.nombre, "Daniel");
     persona1.edad = 30;
     persona1.altura = 1.75;
 

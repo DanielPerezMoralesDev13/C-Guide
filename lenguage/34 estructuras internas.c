@@ -14,7 +14,7 @@ struct Persona {
 
 int main() {
     // Declaración e inicialización de una estructura externa
-    struct Persona persona = {"Juan", 30, {"Programación", 5}};
+    struct Persona persona = {"Daniel", 30, {"Programación", 5}};
 
     // Acceso a los miembros de la estructura externa
     printf("Nombre: %s\n", persona.nombre);

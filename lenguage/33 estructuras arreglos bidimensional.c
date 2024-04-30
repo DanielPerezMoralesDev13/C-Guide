@@ -11,7 +11,7 @@ int main() {
     // Declaración e inicialización de un arreglo bidimensional de empleados
     struct Empleado empleados[2][5] = {
         {
-            {1, "Juan", 2500.50},
+            {1, "Daniel", 2500.50},
             {2, "María", 2800.75},
             {3, "Pedro", 3000.25},
             {4, "Ana", 2700.00},

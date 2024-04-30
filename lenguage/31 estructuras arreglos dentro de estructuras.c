@@ -9,7 +9,7 @@ struct Empleado {
 
 int main() {
     // Declaración e inicialización de una estructura
-    struct Empleado empleado1 = {1, "Juan", {2000.50, 2100.75, 2200.25, 2300.00, 2400.50, 2500.75, 2600.25, 2700.00, 2800.50, 2900.75, 3000.25, 3100.00}};
+    struct Empleado empleado1 = {1, "Daniel", {2000.50, 2100.75, 2200.25, 2300.00, 2400.50, 2500.75, 2600.25, 2700.00, 2800.50, 2900.75, 3000.25, 3100.00}};
 
     // Acceso a los miembros de la estructura
     printf("ID: %d\n", empleado1.id);

@@ -28,9 +28,9 @@ void modificar_edad(struct Persona *p, int nueva_edad) {
 
 int main() {
     // Declaración e inicialización de una variable de tipo Persona
-    struct Persona persona = {"Juan", 30, {15, 5, 1990}};
+    struct Persona persona = {"Daniel", 30, {15, 5, 1990}};
     struct Persona persona2;
-    strcpy(persona.nombre, "Juan");
+    strcpy(persona.nombre, "Daniel");
     persona2.edad = 30;
     persona2.fecha_nacimiento.dia = 15; // día
     persona2.fecha_nacimiento.mes = 5;  // mes

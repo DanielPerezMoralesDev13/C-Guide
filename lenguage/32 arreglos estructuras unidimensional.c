@@ -10,7 +10,7 @@ struct Empleado {
 int main() {
     // Declaración e inicialización de una lista de empleados
     struct Empleado empleados[3] = {
-        {1, "Juan", 2500.50},
+        {1, "Daniel", 2500.50},
         {2, "María", 2800.75},
         {3, "Pedro", 3000.25}
     };

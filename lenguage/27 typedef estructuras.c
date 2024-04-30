@@ -14,7 +14,7 @@ int main() {
     Persona persona1;
 
     // Asignación de valores a los miembros de la estructura
-    strcpy(persona1.nombre, "Juan");
+    strcpy(persona1.nombre, "Daniel");
     persona1.edad = 30;
 
     // Acceso a los miembros de la estructura

@@ -20,7 +20,7 @@
 
 // Directiva #ifndef
 #ifndef NOMBRE
-    #define NOMBRE "Juan"
+    #define NOMBRE "Daniel"
 #endif
 
 // Directiva #include
