@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 // Función que suma dos enteros
+int sumar(int a, int b);
 int sumar(int a, int b) {
     return a + b;
 }
 
 // Función que resta dos enteros
+int restar(int a, int b);
 int restar(int a, int b) {
     return a - b;
 }

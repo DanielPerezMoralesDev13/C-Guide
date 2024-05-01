@@ -9,20 +9,26 @@ struct Persona {
 };
 
 // Función para inicializar una persona
+void inicializar_persona(struct Persona *p, const char *nombre, int edad);
 void inicializar_persona(struct Persona *p, const char *nombre, int edad) {
     p->nombre = strdup(nombre); // Asignar memoria y copiar el nombre
     p->edad = edad;
+    return;
 }
 
 // Función para liberar la memoria asignada a una persona
+void liberar_persona(struct Persona *p);
 void liberar_persona(struct Persona *p) {
     free(p->nombre); // Liberar la memoria del nombre
+    return;
 }
 
 // Función para imprimir los datos de una persona
+void imprimir_persona(const struct Persona *p);
 void imprimir_persona(const struct Persona *p) {
     printf("Nombre: %s\n", p->nombre);
     printf("Edad: %d\n", p->edad);
+    return;
 }
 
 int main() {

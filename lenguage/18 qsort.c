@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // Función de comparación para qsort
+int comparar_enteros(const void *a, const void *b);
 int comparar_enteros(const void *a, const void *b) {
     // Convertir los parámetros void* a enteros
     int int_a = *((int *)a);

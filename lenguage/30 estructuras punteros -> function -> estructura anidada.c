@@ -15,15 +15,19 @@ struct Persona {
 };
 
 // Función para imprimir los datos de una persona
+void imprimir_persona(struct Persona p);
 void imprimir_persona(struct Persona p) {
     printf("Nombre: %s\n", p.nombre);
     printf("Edad: %d\n", p.edad);
     printf("Fecha de nacimiento: %d/%d/%d\n", p.fecha_nacimiento.dia, p.fecha_nacimiento.mes, p.fecha_nacimiento.año);
+    return;
 }
 
 // Función para modificar la edad de una persona mediante un puntero
+void modificar_edad(struct Persona *p, int nueva_edad);
 void modificar_edad(struct Persona *p, int nueva_edad) {
     p->edad = nueva_edad; // Acceso a la edad a través del puntero
+    return;
 }
 
 int main() {
