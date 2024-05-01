@@ -61,6 +61,8 @@
     "modulo.h": "c",
     "math.h": "c",
     "stdio.h": "c",
-    "string.h": "c"
+    "string.h": "c",
+    "lib.h": "c",
+    "stdlib.h": "c"
   }
 }

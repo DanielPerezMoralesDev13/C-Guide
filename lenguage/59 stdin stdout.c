@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // Redirigiendo la salida estándar a un archivo
     FILE *fichero = stdout;  // Redirige a la salida estándar
     fprintf(fichero, "Este es un mensaje que será redirigido a la salida estándar (stdout).\n");
