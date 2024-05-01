@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-int main(){
+int main(void){
     char string[] = "My String variable";
     int integer = 5;
     char convercion_de_integer_a_string[20];

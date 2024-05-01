@@ -19,7 +19,7 @@ int *crearArreglo(int tamano) {
     return arreglo;
 }
 
-int main() {
+int main(void) {
     int tamano = 5;
     int *miArreglo;
 

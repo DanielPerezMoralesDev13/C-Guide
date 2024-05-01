@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int lista[] = {10, 20, 30, 40, 50};
     int matriz[3][3] = {
         {1, 2, 3},

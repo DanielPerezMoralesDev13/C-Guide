@@ -6,7 +6,7 @@
 // En C, no hay una forma directa de representar constantes como PI.
 #define PI_VALUE M_PI
 
-int main() {
+int main(void) {
     // Llamadas a funciones desde el módulo "modulo.c"
     sumarValores(5, 3, 1);
     imprimirValor("Hola Python!");

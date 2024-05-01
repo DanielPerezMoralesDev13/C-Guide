@@ -1,4 +1,4 @@
-// archivo.c
+// fichero.c
 
 #include <stdio.h>
 
@@ -9,7 +9,7 @@ static void funcionStatic(void) {
 }
 
 // Función principal
-int main() {
+int main(void) {
     // Llamada a la función static
     funcionStatic();
     

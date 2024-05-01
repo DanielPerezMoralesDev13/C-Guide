@@ -23,7 +23,7 @@ void imprimirTextoEnMayuscula(char **textos) {
 }
 
 // Función principal
-int main() {
+int main(void) {
     // Arreglo de punteros a caracteres
     char *textos[] = {"hola", "mundo", "en", "mayúsculas", NULL};
 

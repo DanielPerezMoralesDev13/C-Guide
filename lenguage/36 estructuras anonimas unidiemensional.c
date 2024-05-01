@@ -5,7 +5,7 @@ struct {
     int bidimensional[5][10];
 } anonima[3];
 
-int main() {
+int main(void) {
     // Asignación de valores a los arreglos unidimensionales
     for (int i = 0; i < 10; i++) {
         anonima[0].unidimensional[i] = i;

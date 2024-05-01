@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "./lib.h"
 
-int main() {
+int main(void) {
     int a = 10, b = 5;
     int resultado_suma = suma(a, b);
     int resultado_resta = resta(a, b);

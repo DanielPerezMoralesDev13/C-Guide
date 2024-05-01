@@ -10,7 +10,7 @@ void funcion(void) {
     return;
 }
 
-int main() {
+int main(void) {
     // Acceso y modificación de la variable global
     printf("Valor de global_variable en el main antes de modificar: %d\n", global_variable);
     global_variable = 20;

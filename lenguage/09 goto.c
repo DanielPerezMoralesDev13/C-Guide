@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // Declaración e inicialización de la variable de iteración
     int i = 1;
 

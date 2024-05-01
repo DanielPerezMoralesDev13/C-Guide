@@ -18,7 +18,7 @@ struct fecha crearFecha(unsigned int dia,unsigned int mes,unsigned int año){
 }
 
 
-int main(){
+int main(void){
     struct fecha f = crearFecha(13,12,2005);
     // f.dia = 13;
     // f.mes = 12;

@@ -10,7 +10,7 @@ union MiUnion {
     char caracter;
 };
 
-int main() {
+int main(void) {
     union MiUnion miUnion;
 
     // Asignación de valores a la unión

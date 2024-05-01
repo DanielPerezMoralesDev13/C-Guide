@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
     // Condicional con match case para verificar condiciones dentro de case
     int age = 18;
 

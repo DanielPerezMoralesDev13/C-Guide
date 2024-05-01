@@ -7,7 +7,7 @@ struct Empleado {
     float salario;
 };
 
-int main() {
+int main(void) {
     // Declaración e inicialización de un arreglo bidimensional de empleados
     struct Empleado empleados[2][5] = {
         {

@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <complex.h>
 
-int main(){
+int main(void){
     /**
      * Comentario Doxygen se utiliza para generar documentacion
      * automaticamente a partir del codigo fuente. 

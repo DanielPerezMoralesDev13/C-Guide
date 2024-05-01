@@ -10,7 +10,7 @@ void funcion(void) {
     return;
 }
 
-int main() {
+int main(void) {
     funcion();
     funcion();
     funcion();

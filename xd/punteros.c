@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
     unsigned int variable = 5;
     unsigned int *puntero = &variable;
     // el formato %p es para imprimir la direccion a memoria y si la variable no tiene asignada un puntero se le pone &

@@ -4,7 +4,7 @@
 #define TAM_INICIAL 5
 #define INCREMENTO 5
 
-int main() {
+int main(void) {
     int *lista;
     int capacidad = TAM_INICIAL; // Tamaño inicial de la lista
     int longitud = 0; // Número actual de elementos en la lista

@@ -7,7 +7,7 @@ struct Empleado {
     float salario;
 };
 
-int main() {
+int main(void) {
     // Declaración e inicialización de una lista de empleados
     struct Empleado empleados[3] = {
         {1, "Daniel", 2500.50},

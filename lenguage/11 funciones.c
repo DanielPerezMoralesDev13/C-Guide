@@ -51,7 +51,7 @@ void funcion_compuesta(void) {
     return;
 }
 
-int main() {
+int main(void) {
     // Llamada a función compuesta
     funcion_compuesta();
 

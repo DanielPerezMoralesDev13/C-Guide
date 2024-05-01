@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int numero = 42;
     int *puntero1; // Puntero a un entero
     int **puntero2; // Puntero a un puntero a un entero

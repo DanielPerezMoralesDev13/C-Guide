@@ -6,7 +6,7 @@ typedef struct {
     char *cadena;
 } Tupla;
 
-int main() {
+int main(void) {
     // Creación de una tupla
     Tupla tupla = {35, "Daniel"};
 

@@ -8,7 +8,7 @@ struct Persona {
     float altura;
 };
 
-int main() {
+int main(void) {
     // Declaración e inicialización de una estructura
     struct Persona persona1;
     strcpy(persona1.nombre, "Daniel");

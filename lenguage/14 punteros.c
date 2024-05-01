@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // Declaración de variables
     int num = 10;
     int *ptr_num; // Declaración de un puntero a un entero

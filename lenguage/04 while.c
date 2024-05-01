@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
     // While
     int condition = 0;
 

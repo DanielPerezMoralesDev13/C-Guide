@@ -12,11 +12,15 @@ void funcion(void) {
     return;
 }
 
-int main() {
+int main(void) {
     // Llama a la función varias veces
     funcion();
     funcion();
     funcion();
+
+    // dara error por que la variable_static solo existe en static.c descomentar para verificar
+    
+    // printf("variable_static -> %d \n", variable_static);
     
     return 0;
 }

@@ -6,7 +6,7 @@ inline int suma(int a, int b) {
     return a + b;
 }
 
-int main() {
+int main(void) {
     int x = 10, y = 20;
     int resultado;
 

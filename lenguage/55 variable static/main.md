@@ -13,7 +13,7 @@ void funcion() {
     printf("El valor del contador es: %d\n", contador);
 }
 
-int main() {
+int main(void) {
     // Llama a la función varias veces
     funcion();
     funcion();

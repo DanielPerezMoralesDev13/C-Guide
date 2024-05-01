@@ -9,7 +9,7 @@ struct Persona {
 // Declaración de un nuevo tipo de datos usando typedef
 typedef struct Persona Persona;
 
-int main() {
+int main(void) {
     // Declaración de una variable de tipo Persona
     Persona persona1;
 

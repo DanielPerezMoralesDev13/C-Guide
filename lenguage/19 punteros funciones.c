@@ -12,7 +12,7 @@ int restar(int a, int b) {
     return a - b;
 }
 
-int main() {
+int main(void) {
     // Declaración de un puntero a función que toma dos enteros como argumentos y devuelve un entero
     int (*ptr_funcion)(int, int);
 

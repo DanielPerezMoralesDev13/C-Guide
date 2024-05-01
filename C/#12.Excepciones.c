@@ -26,7 +26,7 @@ void printException(Exception e) {
     printf("%s\n", e.message);
 }
 
-int main() {
+int main(void) {
     int numeroUno = 5;
     char numeroTres[] = "1";
 

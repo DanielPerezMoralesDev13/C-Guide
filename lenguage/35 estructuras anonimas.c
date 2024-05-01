@@ -8,7 +8,7 @@ struct {
     int *x[10];
 } anonima,anonima2,anonima3;
 
-int main(){
+int main(void){
     anonima.a = 10;
     anonima.b = 18.12;
     anonima.c = 20.45;

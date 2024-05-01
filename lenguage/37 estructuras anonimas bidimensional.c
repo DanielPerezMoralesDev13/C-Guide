@@ -4,7 +4,7 @@ struct {
     int datos[10];
 } anonima[3][10];
 
-int main() {
+int main(void) {
     // Asignación de valores a los arreglos dentro de la estructura anónima
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 10; j++) {

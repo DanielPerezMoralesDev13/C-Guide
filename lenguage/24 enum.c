@@ -49,7 +49,7 @@ const double frecuencias[NUM_NOTAS] = {
     493.88  // SI
 };
 
-int main() {
+int main(void) {
     // Ejemplo 1: Uso de enum para días de la semana
     enum DiaSemana hoy = MARTES;
     printf("Hoy es %d\n", hoy);

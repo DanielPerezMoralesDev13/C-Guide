@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-int main() {
+int main(void) {
     // Condicionales con if
     bool condition = false;
     int number = 18;

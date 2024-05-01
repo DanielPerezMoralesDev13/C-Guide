@@ -5,7 +5,7 @@
 // Declaración de la variable externa
 extern int variable_externa;
 
-int main() {
+int main(void) {
     // Utilizamos la variable externa
     printf("El valor de la variable externa es: %d\n", variable_externa);
     variable_externa = 100;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int num = 10;
     const int *ptr; // Puntero a un entero constante
 

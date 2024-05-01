@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int numero = 15;
     char *mensaje = (numero % 2 == 0) ? "Es par" : "Es impar";
 

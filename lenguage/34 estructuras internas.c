@@ -12,7 +12,7 @@ struct Persona {
     } talento; // Instancia de la estructura interna como miembro de la estructura externa
 };
 
-int main() {
+int main(void) {
     // Declaración e inicialización de una estructura externa
     struct Persona persona = {"Daniel", 30, {"Programación", 5}};
 

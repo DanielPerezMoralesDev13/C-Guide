@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-int main() {
+int main(void) {
     // Strings
     char string[] = "Mi String";
     char otra_string[] = "Mi otro String";

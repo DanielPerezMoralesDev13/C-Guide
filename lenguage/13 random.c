@@ -14,7 +14,7 @@ int randomSinRango(void) {
     return rand();
 }
 
-int main() {
+int main(void) {
     // Semilla para la función de generación de números aleatorios
     srand(time(NULL));
 

@@ -31,7 +31,7 @@ void imprimir_longitud(Lista *lista) {
     printf("%d\n", lista->longitud);
 }
 
-int main() {
+int main(void) {
     // Definición de listas
     Lista *lista = crear_lista();
     Lista *otra_lista = crear_lista();

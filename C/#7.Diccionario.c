@@ -61,7 +61,7 @@ void printDictionary(Dictionary *dict) {
     }
 }
 
-int main() {
+int main(void) {
     Dictionary dict;
     initDictionary(&dict);
 

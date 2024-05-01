@@ -14,7 +14,7 @@ int comparar_enteros(const void *a, const void *b) {
     return 0;
 }
 
-int main() {
+int main(void) {
     // Arreglo de enteros desordenados
     int arreglo[] = {5, 2, 8, 3, 1};
 

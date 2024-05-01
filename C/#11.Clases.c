@@ -33,7 +33,7 @@ void caminar(Persona *persona) {
 }
 
 // Función principal
-int main() {
+int main(void) {
     // Crear una nueva Persona
     Persona *persona = crearPersona("Daniel", "Benjamin", "Sin alias");
 

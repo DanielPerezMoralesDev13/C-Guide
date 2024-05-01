@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(void) {
     // Función para calcular el valor absoluto de un número
     double numero = -5.5;
     double valor_absoluto = fabs(numero);

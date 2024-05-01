@@ -10,7 +10,7 @@ typedef struct {
 // Renombramiento del tipo de dato 'long int' como 'Precio'
 typedef long int Precio;
 
-int main() {
+int main(void) {
     // Declaración de variables utilizando los tipos renombrados
     Precio recomendado = 80, mayorista = 50, minorista = 90;
     Fecha f = {13, 12, 2005}; // Creación de una variable de tipo 'Fecha'

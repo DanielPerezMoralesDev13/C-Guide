@@ -31,7 +31,7 @@ void imprimir_persona(const struct Persona *p) {
     return;
 }
 
-int main() {
+int main(void) {
     // Declaración e inicialización de una persona utilizando la función inicializar_persona
     struct Persona persona1;
     inicializar_persona(&persona1, "Daniel", 30);

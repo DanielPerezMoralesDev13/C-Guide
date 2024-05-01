@@ -28,7 +28,7 @@ void muestraColores(int color){
 #define FLAG_3 (1 << 2) // Representa el bit 2
 #define FLAG_4 (1 << 3) // Representa el bit 3
 
-int main() {
+int main(void) {
     // Variable que almacenará los flags
     unsigned int flags = 0;
 

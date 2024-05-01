@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int numero;
     do {
         // Solicitar al usuario que ingrese un número

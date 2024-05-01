@@ -30,7 +30,7 @@ void modificar_edad(struct Persona *p, int nueva_edad) {
     return;
 }
 
-int main() {
+int main(void) {
     // Declaración e inicialización de una variable de tipo Persona
     struct Persona persona = {"Daniel", 30, {15, 5, 1990}};
     struct Persona persona2;

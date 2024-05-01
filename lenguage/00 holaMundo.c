@@ -11,7 +11,7 @@ varias
 líneas
 */
 
-int main(){
+int main(void){
     printf("Hola C");
     return 0;
 }

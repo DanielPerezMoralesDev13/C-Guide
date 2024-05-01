@@ -5,7 +5,7 @@ Aquí tienes un ejemplo simple que ilustra cómo se utilizan los punteros `void`
 ```c
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int entero = 10;
     float flotante = 3.14;
     char caracter = 'A';

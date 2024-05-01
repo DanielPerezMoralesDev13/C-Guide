@@ -40,11 +40,11 @@
     #error "La variable NOMBRE no está definida"
 #endif
 
-int main() {
+int main(void) {
     // Uso de las constantes y macros definidas
     printf("Nombre: %s\n", NOMBRE);
 
-    // Uso de las funciones definidas en los archivos de inclusión
+    // Uso de las funciones definidas en los ficheros de inclusión
     #ifdef _WIN32
         printf("Directiva para Windows\n");
         Sleep(1000); // Ejemplo de uso de una función de Windows

@@ -32,7 +32,7 @@ struct Persona *crearPersona(char *nombre, int edad) {
     return nuevaPersona;
 }
 
-int main() {
+int main(void) {
     // Crear una nueva persona
     struct Persona *persona1 = crearPersona("Daniel", 30);
 
