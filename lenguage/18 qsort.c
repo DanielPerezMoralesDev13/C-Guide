@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 // Función de comparación para qsort
-int comparar_enteros(const void *a, const void *b);
-int comparar_enteros(const void *a, const void *b) {
+int compararEnteros(const void *a, const void *b);
+int compararEnteros(const void *a, const void *b) {
     // Convertir los parámetros void* a enteros
     int int_a = *((int *)a);
     int int_b = *((int *)b);
@@ -22,7 +22,7 @@ int main(void) {
     int tamano = sizeof(arreglo) / sizeof(arreglo[0]);
 
     // Ordenar el arreglo utilizando qsort
-    qsort(arreglo, tamano, sizeof(int), comparar_enteros);
+    qsort(arreglo, tamano, sizeof(int), compararEnteros);
 
     // Imprimir el arreglo ordenado
     printf("Arreglo ordenado:\n");

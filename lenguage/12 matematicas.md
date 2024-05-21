@@ -1,6 +1,12 @@
-# Ejemplos de funciones matemáticas comunes en C, incluyendo funciones de la biblioteca matemática `math.h`
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+# ***Ejemplos de funciones matemáticas comunes en C, incluyendo funciones de la biblioteca matemática `math.h`***
 
 ```c
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 #include <math.h>
 
@@ -41,14 +47,20 @@ int main(void) {
 }
 ```
 
-Este código muestra cómo usar algunas de las funciones matemáticas más comunes disponibles en C a través de la biblioteca `math.h`. Las funciones incluidas son:
+*Este código muestra cómo usar algunas de las funciones matemáticas más comunes disponibles en C a través de la biblioteca `math.h`. Las funciones incluidas son:*
 
-- `fabs()`: Calcula el valor absoluto de un número.
-- `sqrt()`: Calcula la raíz cuadrada de un número.
-- `exp()`: Calcula el valor de e elevado a la potencia x.
-- `log()`: Calcula el logaritmo natural de un número.
-- `log10()`: Calcula el logaritmo en base 10 de un número.
-- `fmax()`: Calcula el valor máximo entre dos números.
-- `fmin()`: Calcula el valor mínimo entre dos números.
+- **`fabs()`:** *Calcula el valor absoluto de un número.*
 
-Estas son solo algunas de las funciones matemáticas disponibles en C; la biblioteca `math.h` ofrece muchas más para realizar una variedad de operaciones matemáticas.
+- **`sqrt()`:** *Calcula la raíz cuadrada de un número.*
+
+- **`exp()`:** *Calcula el valor de e elevado a la potencia x.*
+
+- **`log()`:** *Calcula el logaritmo natural de un número.*
+
+- **`log10()`:** *Calcula el logaritmo en base 10 de un número.*
+
+- **`fmax()`:** *Calcula el valor máximo entre dos números.*
+
+- **`fmin()`:** *Calcula el valor mínimo entre dos números.*
+
+*Estas son solo algunas de las funciones matemáticas disponibles en C; la biblioteca `math.h` ofrece muchas más para realizar una variedad de operaciones matemáticas.*

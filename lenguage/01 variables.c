@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 #include <stdbool.h>
 #include <complex.h>
@@ -6,7 +9,6 @@ int main(void){
     /**
      * Comentario Doxygen se utiliza para generar documentacion
      * automaticamente a partir del codigo fuente. 
-
     */
 
     float variable_flotante = 10.5; // variable_flotante
@@ -29,18 +31,14 @@ int main(void){
     long double _Complex complejo_largo_doble = 1.0 + 2.0i;
 
     // Caracteres
-
     char caracteres = 'A';
     unsigned char caracter_sin_signo = 'B';
 
-
     // Booleano
-
     bool boleano = true;
     bool boleano_2 = false;
 
     // Imprimir Hola y el nombre del lenguaje de programación
-
     printf("\n Hola, Lenguaje C rendimiento 100%% \n\n");
     printf("Entero: %d\n", numero);
     printf("Entero corto: %hd\n", numero_corto);

@@ -1,8 +1,11 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 // Función para encontrar la posición de un valor en un array
-int encontrar_posicion(int *array, int tam, int valor);
-int encontrar_posicion(int *array, int tam, int valor) {
+int encontrarPosicion(int *array, int tam, int valor);
+int encontrarPosicion(int *array, int tam, int valor) {
     for (int i = 0; i < tam; i++) {
         if (array[i] == valor) {
             return i; // Retorna la posición si se encuentra el valor
@@ -16,7 +19,7 @@ int main(void) {
     int valor_buscar = 30;
 
     // Encontrar la posición del valor en el array
-    int posicion = encontrar_posicion(numeros, sizeof(numeros) / sizeof(numeros[0]), valor_buscar);
+    int posicion = encontrarPosicion(numeros, sizeof(numeros) / sizeof(numeros[0]), valor_buscar);
 
     // Verificar si se encontró el valor y mostrar la posición
     if (posicion != -1) {

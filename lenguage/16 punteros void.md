@@ -1,8 +1,14 @@
-# Los punteros `void` en C son un tipo especial de puntero que pueden apuntar a cualquier tipo de datos, pero no pueden ser dereferenciados directamente. Se utilizan principalmente para la implementación de funciones y estructuras de datos genéricas, ya que permiten crear funciones y estructuras que pueden manejar datos de cualquier tipo
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+# ***Los punteros `void` en C son un tipo especial de puntero que pueden apuntar a cualquier tipo de datos, pero no pueden ser dereferenciados directamente. Se utilizan principalmente para la implementación de funciones y estructuras de datos genéricas, ya que permiten crear funciones y estructuras que pueden manejar datos de cualquier tipo***
 
-Aquí tienes un ejemplo simple que ilustra cómo se utilizan los punteros `void`:
+*Aquí tienes un ejemplo simple que ilustra cómo se utilizan los punteros `void`:*
 
 ```c
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 int main(void) {
@@ -27,6 +33,7 @@ int main(void) {
 }
 ```
 
-En este ejemplo, creamos un puntero `void` llamado `ptr`. Este puntero `ptr` puede almacenar la dirección de memoria de cualquier tipo de dato. Utilizamos el operador `&` para obtener la dirección de memoria de la variable y asignarla al puntero `ptr`. Sin embargo, para acceder al valor apuntado por el puntero `void`, necesitamos realizar un casting explícito al tipo de dato correcto (`int*`, `float*`, `char*`) y luego dereferenciar el puntero.
+*En este ejemplo, creamos un puntero `void` llamado `ptr`. Este puntero `ptr` puede almacenar la dirección de memoria de cualquier tipo de dato. Utilizamos el operador `&` para obtener la dirección de memoria de la variable y asignarla al puntero `ptr`. Sin embargo, para acceder al valor apuntado por el puntero `void`, necesitamos realizar un casting explícito al tipo de dato correcto (`int*`, `float*`, `char*`) y luego dereferenciar el puntero.*
 
-Es importante destacar que los punteros `void` no pueden ser aritméticos, ya que no tienen un tamaño definido.
+> [!IMPORTANT]
+> *Es importante destacar que los punteros `void` no pueden ser aritméticos, ya que no tienen un tamaño definido.*

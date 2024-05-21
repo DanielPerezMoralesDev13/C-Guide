@@ -1,10 +1,13 @@
-# La diferencia fundamental entre `*sumarDosNumeros` y `sumarDosNumeros` es que uno es un puntero a una función (`*sumarDosNumeros`) y el otro es el nombre de la función (`sumarDosNumeros`)
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+# ***La diferencia fundamental entre `*sumarDosNumeros` y `sumarDosNumeros` es que uno es un puntero a una función (`sumarDosNumeros`) y el otro es el nombre de la función (`sumarDosNumeros`)**
 
-1. `*sumarDosNumeros`: Esta forma declara un puntero a una función. Esto significa que `*sumarDosNumeros` no invoca la función, sino que simplemente declara un puntero que puede apuntar a una función que tiene una firma específica. Este puntero se puede asignar a cualquier función que coincida con la firma (es decir, el tipo de retorno y los tipos de argumentos).
+1. **`sumarDosNumeros`***: Esta forma declara un puntero a una función. Esto significa que `*sumarDosNumeros` no invoca la función, sino que simplemente declara un puntero que puede apuntar a una función que tiene una firma específica. Este puntero se puede asignar a cualquier función que coincida con la firma (es decir, el tipo de retorno y los tipos de argumentos).*
 
-2. `sumarDosNumeros`: Esta es la definición de una función llamada `sumarDosNumeros`. Cuando utilizas `sumarDosNumeros`, estás invocando esa función.
+2. **`sumarDosNumeros`***: Esta es la definición de una función llamada `sumarDosNumeros`. Cuando utilizas `sumarDosNumeros`, estás invocando esa función.*
 
-Aquí hay un ejemplo para clarificar:
+**Aquí hay un ejemplo para clarificar:**
 
 ```c
 #include <stdio.h>
@@ -27,4 +30,4 @@ int main() {
 }
 ```
 
-En este ejemplo, `puntero_suma` es un puntero a una función que toma dos enteros como argumentos y devuelve un entero. Se le asigna la dirección de la función `sumarDosNumeros`. Luego, se invoca la función a través del puntero.
+*En este ejemplo, `puntero_suma` es un puntero a una función que toma dos enteros como argumentos y devuelve un entero. Se le asigna la dirección de la función `sumarDosNumeros`. Luego, se invoca la función a través del puntero.*

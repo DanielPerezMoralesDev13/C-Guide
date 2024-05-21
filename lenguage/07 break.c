@@ -1,8 +1,10 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 int main(void) {
     int i;
-
     // Ejemplo de bucle for con break
     printf("Ejemplo de bucle for con break:\n");
     for (i = 1; i <= 10; i++) {
@@ -26,6 +28,5 @@ int main(void) {
         i++;
     }
     printf("\n");
-
     return 0;
 }

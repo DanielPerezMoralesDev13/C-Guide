@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 int main(void) {
@@ -8,10 +11,8 @@ inicio: // Etiqueta de destino del goto
 
     // Imprime el número de iteración actual
     printf("Iteración %d\n", i);
-
     // Incrementa el contador de iteración
     i++;
-
     // Comprueba si se han completado todas las iteraciones
     if (i <= 5) {
         goto inicio; // Salta de nuevo al inicio del bucle

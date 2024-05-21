@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
@@ -19,7 +22,6 @@ int main(void) {
         printf("Es menor o igual que 10 o mayor o igual que 20 o distinto de 25\n");
     }
 
-   
     // Condicional con inspección de valor
     if (!*string) {
         printf("Mi cadena de texto es vacía\n");

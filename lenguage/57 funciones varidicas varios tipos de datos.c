@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -63,8 +66,8 @@ int main(void) {
     imprimirDoubles(4, 3.14, 2.718, 1.618, 0.577);
 
     // Imprimir estructuras Persona
-    Persona p1 = {1, "Juan"};
-    Persona p2 = {2, "María"};
+    Persona p1 = {1, "Daniel"};
+    Persona p2 = {2, "Sixdally"};
     imprimirPersonas(2, p1, p2);
 
     return 0;

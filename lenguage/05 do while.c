@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 int main(void) {
@@ -11,8 +14,6 @@ int main(void) {
         printf("Número ingresado: %d\n", numero);
 
     } while (numero >= 0); // Continuar el bucle mientras el número ingresado sea no negativo
-
     printf("Fin del programa.\n");
-
     return 0;
 }

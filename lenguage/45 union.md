@@ -1,6 +1,12 @@
-# Por supuesto, aquí tienes un ejemplo simple de cómo usar una unión en C
+<!-- Autor: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
+# ***Por supuesto, aquí tienes un ejemplo simple de cómo usar una unión en C***
 
 ```c
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 // Definición de la unión
@@ -30,8 +36,8 @@ int main(void) {
 }
 ```
 
-En este ejemplo, hemos definido una unión llamada `MiUnion` que puede contener un entero (`int`), un flotante (`float`) o un caracter (`char`). Luego, en la función `main()`, creamos una instancia de esta unión llamada `miUnion`.
+*En este ejemplo, hemos definido una unión llamada `MiUnion` que puede contener un entero (`int`), un flotante (`float`) o un caracter (`char`). Luego, en la función `main()`, creamos una instancia de esta unión llamada `miUnion`.*
 
-Hacemos varias asignaciones de valores a diferentes miembros de la unión y luego los imprimimos. Notarás que los cambios en un miembro de la unión afectan a los otros. Esto se debe a que todos los miembros comparten la misma ubicación de memoria.
+*Hacemos varias asignaciones de valores a diferentes miembros de la unión y luego los imprimimos. Notarás que los cambios en un miembro de la unión afectan a los otros. Esto se debe a que todos los miembros comparten la misma ubicación de memoria.*
 
-Finalmente, imprimimos el tamaño de la unión utilizando `sizeof()` para demostrar cuánto espacio ocupa en la memoria.
+*Finalmente, imprimimos el tamaño de la unión utilizando `sizeof()` para demostrar cuánto espacio ocupa en la memoria.*

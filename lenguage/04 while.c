@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #include <stdio.h>
 
 int main(void){
@@ -27,7 +30,5 @@ int main(void){
         }
         printf("%d\n", condition);
     }
-
-
     return 0;
 }
