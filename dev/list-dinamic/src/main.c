@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "../lib/lib.h"
 
 
@@ -13,12 +11,12 @@ int main(void){
         perror("List *lista = crearListaInt(); -> Error al asignar la memoria");
         CODE_NO_EXITOSO;
     }
-    eliminarItemIndice(lista,10);
-    añadirItem(lista,10);
-    
+    for (int i = 0; i < 10; i++) {
+        añadirItem(lista,i);   
+    }
     imprimirListaInt(lista);
+    eliminarItemValor(lista,2);
     imprimirListaInt(lista);
-
-    free(lista);
+    liberarListInt(lista);
     CODE_EXITOSO;
 }

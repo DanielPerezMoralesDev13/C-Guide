@@ -12,6 +12,5 @@ static void funcionStatic(void) {
 int main(void) {
     // Llamada a la función static
     funcionStatic();
-    
     return 0;
 }

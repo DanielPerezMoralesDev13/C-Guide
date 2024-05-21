@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/d4nitrix13/Desktop/C-Introduccion/lenguage",
-      "program": "/home/d4nitrix13/Desktop/C-Introduccion/lenguage/build/Debug/outDebug",
+      "cwd": "/home/d4nitrix13/Desktop/C-Introduccion/dev/list/src",
+      "program": "/home/d4nitrix13/Desktop/C-Introduccion/dev/list/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
