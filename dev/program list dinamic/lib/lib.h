@@ -1,3 +1,6 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
 #ifndef LIB
 #include "../lib/color.h"
 #include <stdbool.h>
@@ -55,14 +58,14 @@ extern void eliminarItemIndice(List *lista, const int indice){
         perror("Error al asignar memoria para el nuevo arreglo");
         exit(1);
     }
-    bool indice_vacio = false;
+    bool existe = false;
 
     for (int i = 0; i < lista->longitud; i++){
         if (i == indice){
-            indice_vacio = true;
+            existe = true;
             continue;
         }
-        if (indice_vacio){
+        if (existe){
             array[i - 1] = lista->arreglo[i];
             continue;
         }
