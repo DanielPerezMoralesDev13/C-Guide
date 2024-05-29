@@ -8,7 +8,7 @@
 ## ***Author***
 
 - **Name:** **Daniel Benjamin Perez Morales**
-- **GitHub:** *[DanielPerezMoralesDev13](https://github.com/DanielPerezMoralesDev13)*
+- **GitHub:** *[DanielPerezMoralesDev13](https://github.com/DanielPerezMoralesDev13 "https://github.com/DanielPerezMoralesDev13")*
 - **Email:** *<danielperezdev@proton.me>*
 
 ## ***Table of Contents***
@@ -56,8 +56,8 @@
 
 ### ***Installing a Compiler***
 
-1. **Windows:** *Install [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/).*
-2. **macOS:** *Use [Homebrew](https://brew.sh/) to install GCC: `brew install gcc`.*
+1. **Windows:** *Install [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw "https://code.visualstudio.com/docs/cpp/config-mingw") or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/ "https://jmeubank.github.io/tdm-gcc/").*
+2. **macOS:** *Use [Homebrew](https://brew.sh/ "https://brew.sh/") to install GCC: `brew install gcc`.*
 
     ```bash
     brew install gcc
@@ -71,7 +71,7 @@
 
 ### ***Installing Visual Studio Code***
 
-1. **Download:** *Download and install Visual Studio Code from the [official website](https://code.visualstudio.com/).*
+1. **Download:** *Download and install Visual Studio Code from the [official website](https://code.visualstudio.com/ "https://code.visualstudio.com/").*
 
     ```bash
     sudo snap install --classic code # or code-insiders
@@ -284,8 +284,8 @@ free(ptr);
 
 ## ***Additional Resources***
 
-- *[C Documentation](https://devdocs.io/c/)*
-- *[C Tutorial](https://www.learn-c.org/)*
+- *[C Documentation](https://devdocs.io/c/ "https://devdocs.io/c/")*
+- *[C Tutorial](https://www.learn-c.org/ "https://www.learn-c.org/")*
 
 ## ***Contributions***
 
