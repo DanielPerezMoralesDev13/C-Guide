@@ -40,7 +40,7 @@
         gcc -o $@ $^
     ```
 
-    *En un Makefile, la variable automática `$^` se utiliza para representar la lista completa de dependencias de una regla, excluyendo duplicados. Es muy útil cuando necesitas pasar todas las dependencias a un comando, como al enlazar archivos objeto para crear un ejecutable.*
+    *En un Makefile, la variable automática `$^` se utiliza para representar la lista completa de dependencias de una regla, excluyendo duplicados. Es muy útil cuando necesitas pasar todas las dependencias a un comando, como al enlazar ficheros objeto para crear un ejecutable.*
 
 3. **Nombre del objetivo (`$@`):**
 

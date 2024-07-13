@@ -66,17 +66,9 @@ all: programa
 
 # Enlazar los ficheros objeto para crear el ejecutable
 programa: main.o calc.o
-    # Verificar si existe main.c
-    ifeq ($(wildcard main.c),)
-        # Si no existe main.c
-        default_target:
-	    @echo "El archivo main.c no existe."
-    else
-	    @echo "Archivos de dependencias: $^"
-	    @echo "Creando el ejecutable: $@"
-	    $(CC) -o $@ $^
-    endif
-
+	@echo "Archivos de dependencias: $^"
+	@echo "Creando el ejecutable: $@"
+	$(CC) -o $@ $^
 
 # Regla de limpieza
 clean:
