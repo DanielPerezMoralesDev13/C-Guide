@@ -66,7 +66,7 @@ all: programa
 
 # Enlazar los ficheros objeto para crear el ejecutable
 programa: main.o calc.o
-	@echo "Archivos de dependencias: $^"
+	@echo "Ficheros de dependencias: $^"
 	@echo "Creando el ejecutable: $@"
 	$(CC) -o $@ $^
 

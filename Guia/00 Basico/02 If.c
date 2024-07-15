@@ -12,7 +12,7 @@
 *****************************
 */
 
-// ***Instrucción del preprocesador***: Incluye los archivos de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y manejo de cadenas de texto (string.h).
+// ***Instrucción del preprocesador***: Incluye los ficheros de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y manejo de cadenas de texto (string.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 #include <stdbool.h>    // stdbool.h define el tipo de dato booleano.
 #include <string.h>     // string.h contiene funciones para manipulación de cadenas de texto.

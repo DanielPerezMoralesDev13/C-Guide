@@ -11,7 +11,7 @@
 *******************************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el archivo de cabecera estándar para entrada y salida (stdio.h).
+// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf y scanf.
 
 // ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.

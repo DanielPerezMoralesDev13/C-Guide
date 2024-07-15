@@ -12,7 +12,7 @@
 ***************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el archivo de cabecera estándar para entrada y salida (Standard Input Output).
+// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (Standard Input Output).
 #include <stdio.h>   // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 
 // *Comentario en una sola línea*: Se usa para agregar notas o explicaciones breves en el código.
