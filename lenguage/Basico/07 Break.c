@@ -8,7 +8,7 @@
 /*
 ******************************
 *     Tema: Bucles con Break  *
-*     Nivel: Intermedio       *
+*     Nivel: Basico           *
 ******************************
 */
 
