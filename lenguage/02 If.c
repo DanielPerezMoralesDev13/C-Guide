@@ -58,12 +58,12 @@ int main(void) {
 ** Ilustración ASCII de los condicionales **:
 
 1. *Condicional if*:
-   +---------------------------+
-   | if (condition)            |
-   | {                         |
+   +----------------------------+
+   | if (condition)             |
+   | {                          |
    |     // Código si verdadero |
-   | }                         |
-   +---------------------------+
+   | }                          |
+   +----------------------------+
    |
    V
    +-------------------------------+
