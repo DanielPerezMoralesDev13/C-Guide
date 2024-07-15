@@ -1,10 +1,20 @@
+// Autor: Daniel Benjamin Perez Morales
+// GitHub: https://github.com/DanielPerezMoralesDev13
+// Correo electrónico: danielperezdev@proton.me
+
+// Compilacion: gcc -o "00 Funciones" "00 Funciones.c"
+// Ejecucion: ./"00 Funciones"
+
 #include <stdio.h>
+
+// Declaración de variable global
+int variableGlobal = 10;
 
 // Función sin retorno y sin parámetros
 void saludar(void);
 void saludar(void) {
     printf("¡Hola! Esta es una función sin retorno y sin parámetros.\n");
-    return;
+    return; // Opcional, ya que void indica que no se retorna ningún valor
 }
 
 // Función con retorno y con parámetros
@@ -16,19 +26,15 @@ int suma(int a, int b) {
 // Función con retorno, con parámetros y recursiva
 int factorial(int n);
 int factorial(int n) {
-    if (n == 0 || n == 1)
-        return 1;
-    else
-        return n * factorial(n - 1);
+    if (n == 0 || n == 1) return 1;
+    else return n * factorial(n - 1);
 }
 
 // Función que modifica una variable global
-int variable_global = 10;
-
 void modificar_variable_global(void);
 void modificar_variable_global(void) {
-    variable_global = 20;
-    return;
+    variableGlobal = 20;
+    return; // Opcional, ya que void indica que no se retorna ningún valor
 }
 
 // Función que llama a otras funciones
@@ -47,8 +53,8 @@ void funcion_compuesta(void) {
 
     // Llamada a función que modifica una variable global
     modificar_variable_global();
-    printf("El valor de la variable global es: %d\n", variable_global);
-    return;
+    printf("El valor de la variable global es: %d\n", variableGlobal);
+    return; // Opcional, ya que void indica que no se retorna ningún valor
 }
 
 int main(void) {
