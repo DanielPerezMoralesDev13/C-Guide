@@ -8,7 +8,7 @@
 /*
 ******************************
 *     Tema: Bucle Do-While   *
-*     Nivel: Intermedio      *
+*     Nivel: Basico          *
 ******************************
 */
 
