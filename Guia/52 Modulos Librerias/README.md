@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Ahora, compilamos `main.c` junto con `lib.h` para crear un ejecutable***
 
 ```bash
