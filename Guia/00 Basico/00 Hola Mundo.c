@@ -12,10 +12,11 @@
 ***************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (Standard Input Output).
+// Instrucción del preprocesador: Incluye el fichero de cabecera estándar para entrada y salida (Standard Input Output).
+
 #include <stdio.h>   // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 
-// *Comentario en una sola línea*: Se usa para agregar notas o explicaciones breves en el código.
+// Comentario en una sola línea: Se usa para agregar notas o explicaciones breves en el código.
 // Esto es un comentario en una sola línea.
 
 /*
@@ -23,7 +24,7 @@
 * Se usa para comentarios más extensos que abarcan varias líneas. Es útil para documentar partes del código que requieren explicaciones detalladas. *
 */
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// Función principal: Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     /*
     ** printf **

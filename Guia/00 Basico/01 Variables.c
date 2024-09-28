@@ -12,7 +12,7 @@
 ******************************
 */
 
-// ***Instrucción del preprocesador***: Incluye los ficheros de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y números complejos (complex.h).
+// Instrucción del preprocesador: Incluye los ficheros de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y números complejos (complex.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 #include <stdbool.h>    // stdbool.h define el tipo de dato booleano.
 #include <complex.h>    // complex.h define los tipos de datos y funciones para números complejos.
@@ -21,7 +21,7 @@ int main(void) {
     /**
      * **Comentario Doxygen**: 
      * Se utiliza para generar documentación automáticamente a partir del código fuente.
-     */
+    */
 
     // **Variables y constantes**
     // Definición y inicialización de variables y constantes de diferentes tipos de datos.

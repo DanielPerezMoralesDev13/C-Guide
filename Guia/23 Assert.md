@@ -1,6 +1,7 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
+
 # ***Aquí tienes un ejemplo básico de cómo usar la macro `assert` en C***
 
 ```c
