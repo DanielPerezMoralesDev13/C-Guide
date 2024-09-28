@@ -14,6 +14,5 @@ int main(void) {
     variable_externa = 100;
     printf("EL nuevo valor de la variable externa es: %d\n", variable_externa);
 
-
     return 0;
 }
