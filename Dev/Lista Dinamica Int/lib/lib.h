@@ -1,6 +1,7 @@
 // Autor: Daniel Benjamin Perez Morales
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
+
 #ifndef LIB
 #include "../lib/color.h"
 #include <stdbool.h>
@@ -27,17 +28,17 @@ extern void eliminarItemValor(List *lista, const int item){
         printf("%s%sLista vacia\n%s",colorear("rojo"),style("negrita"),resetColor());
         return;
     }
-    bool existe_item = false;
+    bool existeItem = false;
     int indice;
     for (int i = 0; i < lista->longitud; i++){
        if (lista->arreglo[i] == item){
         indice = i;
-        existe_item = true;
+        existeItem = true;
         break;
        }
     }
     
-    if (!existe_item){
+    if (!existeItem){
         printf("%s%sItem %d no existe\n%s",colorear("rojo"),style("negrita"),item,resetColor());
         return;
     }
