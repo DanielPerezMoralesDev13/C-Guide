@@ -9,7 +9,7 @@
 // Autor: Daniel Benjamin Perez Morales
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
-// fichero.c
+// main.c
 
 #include <stdio.h>
 
@@ -23,7 +23,6 @@ static void funcionStatic(void) {
 int main(void) {
     // Llamada a la función static
     funcionStatic();
-    
     return 0;
 }
 ```
@@ -36,6 +35,7 @@ int main(void) {
 // Autor: Daniel Benjamin Perez Morales
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
+
 #include <stdio.h>
 
 void funcion(void);
