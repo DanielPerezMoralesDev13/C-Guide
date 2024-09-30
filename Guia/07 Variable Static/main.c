@@ -1,6 +1,7 @@
 // Autor: Daniel Benjamin Perez Morales
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
+
 #include <stdio.h>
 
 void funcion(void);
@@ -23,7 +24,7 @@ int main(void) {
 
     // dara error por que la variable_static solo existe en static.c descomentar para verificar
     
-    // printf("variable_static -> %d \n", variable_static);
+    // printf("variableStatic -> %d \n", variable_static);
     
     return 0;
 }

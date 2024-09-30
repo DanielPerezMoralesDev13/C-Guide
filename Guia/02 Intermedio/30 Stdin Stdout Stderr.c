@@ -1,6 +1,7 @@
 // Autor: Daniel Benjamin Perez Morales
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
+
 #include <stdio.h>
 
 int main(void)
@@ -15,5 +16,15 @@ int main(void)
     fgets(buffer, sizeof(buffer), stdin);         // Lee desde la entrada estándar
     fprintf(stdout, "Usted ingresó: %s", buffer); // Escribe en la salida estándar
 
+    // Ejemplo de uso de stderr
+    fprintf(stderr, "Este es un mensaje de error que se enviará a la salida de error (stderr).\n");
+    
+    // Simular un error
+    int errorOcurrido = 1; // Variable para simular si ha ocurrido un error
+    if (errorOcurrido) {
+        fprintf(stderr, "Error: Ocurrió un problema al procesar la información.\n");
+    }
+
     return 0;
 }
+
